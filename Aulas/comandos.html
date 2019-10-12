@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <style>
+        body{
+            background-color: snow;
+            font:normal 20 Arial;
+        }    
+    </style>
+
+</head>
+<body>
+    <h2 style="color: cadetblue;">BOM DIA </h2>
+    
+    <script>
+       var nome = prompt('Qual è o seu nome?')
+       alert('Prazer em te conhecer '+ nome)//CONCATENACAO
+       //document.write(nome)
+
+       //tem que converter n1 e n2 em numeros senao ele retorna a concatenacao string
+       var n1 = parseInt(prompt('Digite um numero: '))
+       var n2 = Number(prompt('Digite outro numero: '))//outra forma de converteer
+       var soma = n1 + n2
+       //nova formatcao de strings do ECMA usa crase e cifrao
+       alert(`a soma è: ${soma}`) 
+    </script>
+    
+</body>
+</html>
